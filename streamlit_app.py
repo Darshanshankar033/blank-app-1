@@ -7,7 +7,7 @@ st.write(
 )
 
 client = OpenAI(
-  base_url="http://192.168.29.194:1234",
+  base_url="http://127.0.0.1:1234",
   api_key="",
 )
 
