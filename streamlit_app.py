@@ -13,7 +13,7 @@ client = OpenAI(
 
 completion = client.chat.completions.create(
   extra_headers={
-    "HTTP-Referer": "<YOUR_SITE_URL>", # Optional. Site URL for rankings on openrouter.ai.
+    "HTTP-Referer": "https://blank-app-q6lypden9k.streamlit.app/", # Optional. Site URL for rankings on openrouter.ai.
     "X-Title": "Project", # Optional. Site title for rankings on openrouter.ai.
   },
   extra_body={},
